@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="example" max_length="40" name="x_58872_needit_example" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="NAMe" max_length="40" name="name" type="string"/>
+        <element label="Ph Number" max_length="40" name="ph_number" type="integer"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
